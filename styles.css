@@ -1,0 +1,123 @@
+h1
+{
+    color:black;
+    
+    text-align: center;
+    
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-shadow: -1px -1px 0 red;
+    
+}
+    
+body {
+      background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS15GLBq0-HVzw4feu6j33KrPNWW0W7xMh67GBA7Q25yg&s') ;
+    
+    
+}
+
+
+img {
+    
+    width:130px ;
+    
+    height: 130px;
+    
+    border-radius: 50%;
+    
+    border:1px solid red;
+    
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    
+    
+}
+
+    
+button {
+    
+    border-radius: 20px 20px;
+    
+    font-size: 30px;
+    
+    color: yellow;
+    
+    border-color: red;
+    
+    background-color: rgba(0,0,0,0);
+    
+    font-family: Arial, Helvetica, Sans-Serif;
+    
+    white-space: nowrap;
+    
+
+    
+}    
+
+.copy {
+    font-size:10px;
+    
+    font-family: Arial, Helvetica, Sans-Serif;
+    
+    color: red;
+    
+}
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+#slider {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Define a largura inicial do slider */
+  width: 300px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease; /* Adiciona uma transição suave para o efeito de deslize */
+}
+
+#slider-content {
+  padding: 20px;
+  color: white;
+}
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.boneco {
+    
+  font-size: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 150px;
+  background: url('astro.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  animation: animacao-boneco 2s linear infinite;
+}
+
+
+@keyframes animacao-boneco {
+  0% {
+    transform: translateY(4);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+    
+  
+}
