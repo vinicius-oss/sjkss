@@ -10,7 +10,7 @@ Ele está relacionado à cadastro para que as pessoas façam e utilizem o meu si
 ## Como Começar
 
 1. Clone este repositório: `git clone https://vinicius-oss.github.io/sjkss/
-2. Navegue até o diretório do projeto: `cd 0`
+2. Navegue até o diretório do projeto: `cd storage/emulated/0/sitebot`
 3. Execute `npm start` para iniciar.
 
 ## Contribuição
